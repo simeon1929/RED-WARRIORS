@@ -479,8 +479,10 @@ footer span {
   .home__banner .mobileText span {
     font-size: 22px;
   }
-  .home__banner .mobileText {
+  .home__banner .h1 {
     font-size: 26px !important;
+  }
+  .home__banner .mobileText {
     display: block;
   }
 }
