@@ -490,10 +490,11 @@ footer {
          font-size: 26px;
         span { font-size: 22px;}
     }
-    .mobileText { font-size: 26px !important;}
+    .mobileText { font-size: 26px !important; display: block;}
 }
 
 }
+.mobileText { display: none;}
 
 //end
 

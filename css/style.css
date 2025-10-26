@@ -481,5 +481,9 @@ footer span {
   }
   .home__banner .mobileText {
     font-size: 26px !important;
+    display: block;
   }
+}
+.mobileText {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
