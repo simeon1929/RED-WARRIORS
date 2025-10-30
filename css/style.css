@@ -237,6 +237,21 @@ header .logo img {
 .gallery .grid img {
   width: 100%;
 }
+.gallery .img {
+  position: relative;
+  align-self: stretch;
+  height: auto;
+  flex-shrink: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  transition: transform 0.5s ease-in-out;
+  overflow: hidden;
+}
+.gallery .img :hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
 .gallery .shaddow {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(71, 4, 4, 0.3) 0px 7px 13px -3px, rgba(151, 14, 14, 0.2) 0px -3px 0px inset;
   border: 2px solid rgba(147, 5, 5, 0.93);
