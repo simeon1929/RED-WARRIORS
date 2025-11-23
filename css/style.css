@@ -270,14 +270,11 @@ header .logo img {
   padding-bottom: 20px;
 }
 
-.bgConatct {
-  background: url(../orga.jpeg) center center no-repeat;
-  background-size: cover;
-  padding: 250px 0;
+.contactUs {
+  padding: 70px 0;
 }
-
 .contactUs h2, .contactUs h3, .contactUs h4 {
-  color: red;
+  color: #000;
 }
 .contactUs h2 {
   font-family: "relay-boldregular";
@@ -458,6 +455,16 @@ footer span {
 @media only screen and (max-width: 767px) {
   h2, h3 {
     text-align: left;
+  }
+  .contactUs h2 {
+    padding-bottom: 30px;
+  }
+  .contactUs h3 {
+    padding-bottom: 0px;
+    font-size: 22px;
+  }
+  .contactUs .col-md-4:first-child {
+    padding-bottom: 80px;
   }
 }
 @media only screen and (max-width: 600px) {

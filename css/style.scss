@@ -270,13 +270,10 @@ background: $bg__primarycolor;
         padding-bottom: 20px;
     }
 }
-.bgConatct {
-    background: url(../orga.jpeg) center center no-repeat;
-    background-size: cover;
-    padding: 250px 0;
-}
+
 .contactUs {
-    h2, h3, h4 {color: red;}
+    padding: 70px 0;
+    h2, h3, h4 {color: #000;}
     h2 {
         font-family: $relayBold;
         padding-bottom: 45px;
@@ -465,6 +462,13 @@ footer {
 @media only screen and (max-width: 767px) {
     h2, h3 {
         text-align: left;
+    }
+    .contactUs {
+        h2 {padding-bottom: 30px;}
+        h3 { padding-bottom: 0px; font-size: 22px;}
+        .col-md-4:first-child {
+            padding-bottom: 80px;
+        }
     }
 }
 
