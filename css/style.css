@@ -270,8 +270,14 @@ header .logo img {
   padding-bottom: 20px;
 }
 
-.contactUs {
-  padding: 70px 0;
+.bgConatct {
+  background: url(../orga.jpeg) center center no-repeat;
+  background-size: cover;
+  padding: 250px 0;
+}
+
+.contactUs h2, .contactUs h3, .contactUs h4 {
+  color: red;
 }
 .contactUs h2 {
   font-family: "relay-boldregular";
@@ -282,7 +288,6 @@ header .logo img {
   font-size: 30px;
   padding-bottom: 20px;
   font-family: "Roboto", sans-serif;
-  color: #5f5e5e;
 }
 .contactUs form {
   padding-top: 30px;

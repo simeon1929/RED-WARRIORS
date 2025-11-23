@@ -270,18 +270,24 @@ background: $bg__primarycolor;
         padding-bottom: 20px;
     }
 }
+.bgConatct {
+    background: url(../orga.jpeg) center center no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
 .contactUs {
-    padding: 70px 0;
+    h2, h3, h4 {color: red;}
     h2 {
         font-family: $relayBold;
         padding-bottom: 45px;
         line-height: 50px;
+        
     }
     h3 {
         font-size: 30px;
         padding-bottom: 20px;
         font-family: $main__Font;
-        color: #5f5e5e;
+        
     }
     form {
         padding-top: 30px;
